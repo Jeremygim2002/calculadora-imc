@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- tipos de letra 1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap" rel="stylesheet">
+
+    <!-- tipos de letra 2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Calcula tu IMC</h1>
+</header>
+
+<form id="form">
+
+    <div class="contenedor__1">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <input type="text" id="nombre" placeholder="Nombre" autofocus><br><br>
+            <input type="number" id="peso" placeholder="Peso en Kg" step="0.01" required>
+            <input type="number" id="altura" placeholder="Altura en m." step="0.01" required><br>
+        </fieldset>
+    </div>
+
+    <div class="contenedor__2">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="masculino" value="masculino">
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" name="sexo" id="femenino" value="femenino">
+            <label for="femenino">Femenino</label>
+        </fieldset><br>
+    </div>
+
+    <div class="contenedor__3">
+        <button type="button" onclick="calcular()">Calcular</button>
+        <button type="button" onclick="limpiar()">Limpiar</button><br><br>
+    </div>
+
+    <div class="contenedor__4">
+        <fieldset>
+            <legend>Resultados</legend>
+            <!-- <label>Nombre</label>
+            <input type="text" id="mostrar_nombre" disabled><br><br>
+            <label>Peso</label>
+            <input type="text" id="mostrar_peso" disabled><br><br>
+            <label>Altura</label>
+            <input type="text" id="mostrar_altura" disabled><br><br> -->
+            <label>Su IMC es:</label><br>
+            <input type="text" id="imc" disabled><br><br>
+            <label>Interpretacion:</label><br>
+            <input type="text" id="interpretacion" disabled>
+        </fieldset>
+    </div>
+</form>
+
+<footer>
+    <p>@jremygim.2002</p>
+</footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
