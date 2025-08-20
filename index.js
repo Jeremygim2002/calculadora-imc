@@ -9,9 +9,6 @@ calcular = ()=>{
     let nombre = document.getElementById('nombre').value;
     let peso = parseFloat(document.getElementById('peso').value);
     let altura = parseFloat(document.getElementById('altura').value);
-    // let mostrar_nombre = document.getElementById('mostrar_nombre');
-    // let mostrar_peso = document.getElementById('mostrar_peso');
-    // let mostrar_altura = document.getElementById('mostrar_altura');
 
     let imc = document.getElementById('imc');
 
@@ -59,12 +56,6 @@ calcular = ()=>{
         alert("El campo sexo no ha sido seleccionado")
         return;
     }
-
-
-    // Mostramos los datos y resultados
-    // mostrar_nombre.value = nombre;
-    // mostrar_peso.value = peso;
-    // mostrar_altura.value = altura;
 
     imc.value = indice;
 

@@ -19,15 +19,16 @@ Permite calcular el IMC de una persona según su peso, altura y sexo, mostrando 
   - Obesidad  
 - Diseño sencillo y responsivo.  
 
+---
 
 ⚙️ Tecnologías utilizadas
 - HTML5  
 - CSS3  
 - JavaScript (ES6)  
 
+---
 
 📲 Cómo usarlo
 
 1. Clonar el repositorio:  
-   ```bash
 https://github.com/Jeremygim2002/calculadora-imc.git

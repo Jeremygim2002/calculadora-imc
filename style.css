@@ -77,13 +77,10 @@ legend {
 }
 
 
-
-/* Animaciones */
-
 .contenedor__3 button:hover {
     animation-name: resaltador;
     animation-duration: .5s;
-    animation-iteration-count: 1; /* Hace que la animacion sea infinita */
+    animation-iteration-count: 1; 
 }
 
 @keyframes resaltador {
